@@ -23,5 +23,5 @@ To merge in upstream changes later:
 
 ```
 $ git fetch -p python-build-scripts
-$ git merge --ff --squash -Xsubtree=script python-build-scripts/master
+$ git merge --allow-unrelated-histories --ff --squash -Xsubtree=script python-build-scripts/master
 ```
